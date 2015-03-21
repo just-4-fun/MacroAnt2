@@ -8,7 +8,7 @@ object AntMacro {
     c.typecheck(annottees.head).symbol.asType.toType.decls // ok
 //    c.typecheck(annottees.head).toString // throws error
 //    c.typecheck(annottees.head).symbol.asType.toType.members  // throws error
-    q"""class A { def ask() = println("ok") }"""
+    q"""class A { def ask() = println("OK") }"""
   }
 }
 
